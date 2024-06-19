@@ -16,4 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
     elements.forEach(element => {
         observer.observe(element);
     });
+
+    // '프로젝트' 링크 클릭 시 'PROJECT' 섹션으로 스크롤
+    document.getElementById('item-2').addEventListener('click', function() {
+        const projectSection = document.getElementById('project-section');
+        projectSection.scrollIntoView({ behavior: 'smooth' });
+    });
 });
