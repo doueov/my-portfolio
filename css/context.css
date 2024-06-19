@@ -16,6 +16,7 @@
 .line {
     width: 80%;
     height: 1px;
+    margin-bottom: 1%;
     background-color: rgb(173, 173, 173);
 }
 
@@ -56,7 +57,7 @@ td {
     margin-bottom: 1%;
 }
 
-/* 이미지 컨테이너 */
-/* .img-container {
-    /* wi
-} */    
+/* 성취 이미지 */
+.achiving-img {
+    
+}    
