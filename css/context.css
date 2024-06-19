@@ -78,3 +78,16 @@ td {
 .delicious-map {
     width: 50%;
 }
+
+/* 초기 상태: 투명 */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  /* 활성화 상태: 불투명 */
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
