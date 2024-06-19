@@ -5,10 +5,18 @@ body {
     font-style: normal;
 }
 
-/* 헤더 */
-.nav-container {
+/* 헤더 왼쪽 */
+.header {
     display: flex;
     align-items: center;
+}
+
+#text {
+    margin-right: 50%;
+}
+
+#item-1 {
+    margin-right: 3%;
 }
 
 /* 헤더 로고 */
@@ -16,13 +24,11 @@ body {
     width: 10%;
     height: auto;
     margin: 1% 2% 1% 3%;
-
 }
 
 /* 배너 */
 .loop-cont {
     overflow: hidden;
-    /* 배너가 컨테이너를 벗어나지 않도록 숨김 */
     width: 100%;
 }
 
@@ -35,8 +41,7 @@ body {
 .banner-list {
     background-color: lightblue;
     margin-right: 10px;
-    margin: 0; /* 모든 마진을 제거하여 이미지들이 서로 간격없이 붙어 있도록 설정 */
-    padding: 0; /* 패딩도 제거 */
+    margin: 0;
     flex-shrink: 0;
 }
 
@@ -45,7 +50,18 @@ body {
     0% {
         transform: translateX(0%);
     }
+
     100% {
-        transform: translateX(-200%); /* 이미지 너비와 개수에 맞게 조정 */
+        transform: translateX(-200%);
+        /* 이미지 너비와 개수에 맞게 조정 */
     }
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
 }
