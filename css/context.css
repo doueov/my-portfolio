@@ -17,6 +17,7 @@
     width: 80%;
     height: 1px;
     margin-bottom: 1%;
+    margin-top: 1%;
     background-color: rgb(173, 173, 173);
 }
 
@@ -45,19 +46,35 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
+
 td {
-    font-size: large;
     padding: 10px;
 }
 
 /* 소주제 타이틀 */
 .mini-title {
     font-size: 27px;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: bold;
 }
 
 /* 성취 이미지 */
-.achiving-img {
-    
-}    
+.achiving-img img {
+    width: 30%;
+    padding: 5%;
+}
+
+/* 깃허브 바로가기 */
+#github-link {
+    color: rgb(98, 98, 98);
+    font-weight: bold;
+}
+
+/* 프로젝트 이미지 */
+.earthup,
+.turtle-neck,
+.beatnami,
+.delicious-map {
+    width: 50%;
+}

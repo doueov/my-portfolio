@@ -1,7 +1,6 @@
 /* 웹사이트 폰트 적용 */
 body {
     font-family: "Nanum Gothic", sans-serif;
-    font-weight: bold;
     font-style: normal;
 }
 
@@ -9,6 +8,7 @@ body {
 .header {
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 #text {
@@ -57,11 +57,13 @@ body {
     }
 }
 
+/* <a>태그 밑줄 없애기 */
 a {
     color: black;
     text-decoration: none;
 }
 
+/* 방문했던 a태그 검정색 폰트로 */
 a:visited {
     color: black;
 }
