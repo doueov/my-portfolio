@@ -38,9 +38,10 @@ body {
     flex-shrink: 0;
 }
 
-/* 배너 애니메이션 */@keyframes banner-animation {
+/* 배너 애니메이션 */
+@keyframes banner-animation {
     0% {
-        transform: translateX(0);
+        transform: translateX(0%);
     }
     100% {
         transform: translateX(-200%); /* 이미지 너비와 개수에 맞게 조정 */
