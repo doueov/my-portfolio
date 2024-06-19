@@ -28,13 +28,15 @@ body {
 
 .banner {
     display: flex;
-    animation: banner-animation 10s linear infinite;
+    animation: banner-animation 30s linear infinite;
 }
 
 /* 배너 이미지 항목 */
 .banner-list {
     background-color: lightblue;
     margin-right: 10px;
+    margin: 0; /* 모든 마진을 제거하여 이미지들이 서로 간격없이 붙어 있도록 설정 */
+    padding: 0; /* 패딩도 제거 */
     flex-shrink: 0;
 }
 
