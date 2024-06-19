@@ -1,0 +1,13 @@
+@media screen and (max-width: 700px) {
+    #text, #item-1, #item-2 {
+        display: none;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+}
