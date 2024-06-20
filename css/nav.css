@@ -6,6 +6,12 @@ body {
     overflow-y: scroll;
 }
 
+/* 스크롤바 투명하게 만들기 */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* 헤더 */
 header {
     position: sticky;
     top: 0px;
