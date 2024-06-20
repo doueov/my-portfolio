@@ -2,7 +2,18 @@
 body {
     font-family: "Nanum Gothic", sans-serif;
     font-style: normal;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
+
+header {
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    z-index: 10;
+    background-color: #fff;
+}
+
 
 /* 헤더 왼쪽 */
 .header {
