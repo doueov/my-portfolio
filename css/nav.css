@@ -2,7 +2,24 @@
 body {
     font-family: "Nanum Gothic", sans-serif;
     font-style: normal;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
+
+/* 스크롤바 투명하게 만들기 */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* 헤더 */
+header {
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    z-index: 10;
+    background-color: #fff;
+}
+
 
 /* 헤더 왼쪽 */
 .header {
